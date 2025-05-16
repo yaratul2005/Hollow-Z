@@ -2,6 +2,12 @@ name = "hollow-z"
 main = "worker.js"
 compatibility_date = "2025-05-16"
 
+# wrangler.toml (wrangler v3.88.0^)
+[observability.logs]
+enabled = true
+
+
+
 [build]
 command = "npm install && npx wrangler deploy"
 
