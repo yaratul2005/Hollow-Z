@@ -1,5 +1,6 @@
 // main.js
-import { Bot } from "grammy";
+// main.js
+import { Bot } from "@grammyjs/edge";
 import { loadFeatures } from "./utils/featureLoader.js";
 import { TELEGRAM_BOT_TOKEN } from "./config/env.js";
 
