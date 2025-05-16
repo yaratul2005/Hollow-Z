@@ -1,0 +1,8 @@
+name = "hollow-z"
+type = "javascript"
+
+[vars]
+TELEGRAM_BOT_TOKEN = "7956263572:AAGeeEcSbH33faAULDggchWE4PZ52LNOgxY"
+
+[build]
+command = "npm install && npm run build"
