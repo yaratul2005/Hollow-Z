@@ -2,5 +2,8 @@ name = "hollow-z"
 main = "worker.js"
 compatibility_date = "2025-05-16"
 
+[build]
+command = "npm install && npx wrangler deploy"
+
 [vars]
 TELEGRAM_BOT_TOKEN = "7956263572:AAGeeEcSbH33faAULDggchWE4PZ52LNOgxY"
