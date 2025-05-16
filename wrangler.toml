@@ -1,8 +1,6 @@
 name = "hollow-z"
-type = "javascript"
+main = "worker.js"
+compatibility_date = "2025-05-16"
 
 [vars]
 TELEGRAM_BOT_TOKEN = "7956263572:AAGeeEcSbH33faAULDggchWE4PZ52LNOgxY"
-
-[build]
-command = "npm install && npm run build"
