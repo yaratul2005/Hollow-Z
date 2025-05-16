@@ -3,12 +3,14 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "build": "esbuild worker.js --bundle --outfile=dist/worker.js --platform=browser --format=esm"
+    "start": "node main.js",
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
   },
   "dependencies": {
-    "@grammyjs/edge": "^1.16.0"
+    "@grammyjs/edge": "github:grammyjs/edge"
   },
   "devDependencies": {
-    "esbuild": "^0.20.0"
+    "wrangler": "^4.15.2"
   }
 }
